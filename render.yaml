@@ -1,0 +1,10 @@
+render.yaml
+services:
+  - type: web
+    name: pro-max-jarvis
+    env: python
+    buildCommand: "pip install -r requisitos.txt"
+    startCommand: "python aplicativo.py"
+    plan: free
+    branch: principal
+    autoDeploy: true
