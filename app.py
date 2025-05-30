@@ -3,7 +3,7 @@ import threading
 import time
 import random
 
-app = Flask(__name__)
+app = Frasco(__name__)
 
 logs = []
 
