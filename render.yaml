@@ -7,4 +7,3 @@ services:
     plan: free
     branch: principal
     autoDeploy: true
-    
