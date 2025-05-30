@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pro Max JARVIS - Fera Solta</title>
+    <meta http-equiv="refresh" content="3">
+    <style>
+        body { background: black; color: lime; font-family: monospace; padding: 20px; }
+        h1 { color: red; }
+        .log { white-space: pre-line; }
+    </style>
+</head>
+<body>
+    <h1>🐍 Pro Max JARVIS - Fera Solta</h1>
+    <div class="log">
+        {% for line in logs %}
+            {{ line }}<br>
+        {% endfor %}
+    </div>
+</body>
+</html>
