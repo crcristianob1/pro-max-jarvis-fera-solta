@@ -3,7 +3,7 @@ services:
     name: pro-max-jarvis
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn aplicativo:app"
+    startCommand: "gunicorn app:app"
     plan: free
     branch: principal
     autoDeploy: true
